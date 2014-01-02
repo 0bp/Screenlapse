@@ -21,6 +21,14 @@
 @property (weak) IBOutlet NSTableView *windowTableView;
 @property (weak) IBOutlet NSButton *reloadButton;
 
+@property (weak) IBOutlet NSMenuItem *Interval_1;
+@property (weak) IBOutlet NSMenuItem *Interval_5;
+@property (weak) IBOutlet NSMenuItem *Interval_10;
+@property (weak) IBOutlet NSMenuItem *Interval_15;
+@property (weak) IBOutlet NSMenuItem *Interval_20;
+@property (weak) IBOutlet NSMenuItem *Interval_30;
+@property (weak) IBOutlet NSMenuItem *Interval_60;
+
 - (NSImage *)createSingleWindowShot:(NSDictionary * )window;
 - (NSImage *)createMultiWindowShot:(NSArray*)selection;
 - (NSImage *)getImage:(CGImageRef)cgImage;
@@ -28,5 +36,6 @@
 
 - (IBAction)capture:(id)sender;
 - (IBAction)reload:(id)sender;
+- (IBAction)changeInterval:(id)sender;
 
 @end

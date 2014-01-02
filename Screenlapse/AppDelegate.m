@@ -20,6 +20,7 @@
   [_WindowList setDelegate:windowListDS];
   
   [_captureButton setEnabled:NO];
+  [self updateIntervalMenu];
 }
 
 # pragma mark -
@@ -155,6 +156,44 @@
   return result;
 }
 
+- (void)updateIntervalMenu
+{
+  NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+  NSString * intervalValue = [defaults objectForKey:@"interval"];
+  
+  NSString * defaultInterval = @"5";
+  
+  if(intervalValue != nil && [intervalValue isNotEqualTo:@""])
+  {
+    defaultInterval = intervalValue;
+  }
+  
+  NSArray * intervals = [NSArray arrayWithObjects:_Interval_1, _Interval_5, _Interval_10, _Interval_15, _Interval_20, _Interval_30, _Interval_60, nil];
+  for(NSMenuItem * item in intervals)
+  {
+    if([item tag] == [defaultInterval integerValue])
+    {
+      [item setState:NSOnState];
+    }
+    else
+    {
+      [item setState:NSOffState];
+    }
+  }
+}
+
+- (float)getSelectedInterval
+{
+  NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+  NSString * intervalValue = [defaults objectForKey:@"interval"];
+  
+  if(intervalValue != nil && [intervalValue isNotEqualTo:@""])
+  {
+    return [intervalValue floatValue];
+  }
+  return 5.0f;
+}
+
 # pragma mark -
 # pragma mark Button Actions
 
@@ -187,7 +226,7 @@
     {
       NSURL *fileURL = [openDlg URL];
       
-      interval = [NSTimer scheduledTimerWithTimeInterval:5.0f
+      interval = [NSTimer scheduledTimerWithTimeInterval:[self getSelectedInterval]
                                        target:self
                                      selector:@selector(saveInterval:)
                                      userInfo:[NSDictionary dictionaryWithObject:[fileURL path] forKey:@"path"]
@@ -211,6 +250,18 @@
   [_previewView setImage:nil];
   [_windowTableView reloadData];
 }
+
+- (IBAction)changeInterval:(id)sender
+{
+  NSString * value = [NSString stringWithFormat:@"%ld", [sender tag]];
+    
+  NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+  [defaults setObject:value forKey:@"interval"];
+  
+  [self updateIntervalMenu];
+}
+
+
 
 
 @end

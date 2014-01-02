@@ -77,37 +77,45 @@
                                     <items>
                                         <menuItem title="1 Second" tag="1" id="vml-70-w86">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="changeInterval:" target="494" id="Oqn-8l-npS"/>
+                                            </connections>
                                         </menuItem>
                                         <menuItem title="5 Seconds" state="on" tag="5" id="mYA-ZB-sot">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="changeInterval:" target="494" id="MkD-AU-VHx"/>
+                                            </connections>
                                         </menuItem>
-                                        <menuItem title="10 Seconds" id="sev-YQ-x8Q">
+                                        <menuItem title="10 Seconds" tag="10" id="sev-YQ-x8Q">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="changeInterval:" target="494" id="XOu-4M-IK5"/>
+                                            </connections>
                                         </menuItem>
-                                        <menuItem title="15 Seconds" id="rrq-MS-eBB">
+                                        <menuItem title="15 Seconds" tag="15" id="rrq-MS-eBB">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="changeInterval:" target="494" id="bSo-xj-hTM"/>
+                                            </connections>
                                         </menuItem>
-                                        <menuItem title="20 Seconds" id="IXk-m7-4lj">
+                                        <menuItem title="20 Seconds" tag="20" id="IXk-m7-4lj">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="changeInterval:" target="494" id="gGL-Kv-Ocu"/>
+                                            </connections>
                                         </menuItem>
-                                        <menuItem title="30 Seconds" id="e2J-7D-moJ">
+                                        <menuItem title="30 Seconds" tag="30" id="e2J-7D-moJ">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="changeInterval:" target="494" id="txT-k1-i76"/>
+                                            </connections>
                                         </menuItem>
-                                        <menuItem title="60 Seconds" id="iyz-fV-cSu">
+                                        <menuItem title="60 Seconds" tag="60" id="iyz-fV-cSu">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                        </menuItem>
-                                    </items>
-                                </menu>
-                            </menuItem>
-                            <menuItem title="Limit" id="1nS-BL-HZt">
-                                <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Limit" id="cuq-VJ-WQm">
-                                    <items>
-                                        <menuItem title="Set Frame Limit" id="dux-Ci-cLZ">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                        </menuItem>
-                                        <menuItem title="Set Time Limit" id="wz8-WG-if3">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="changeInterval:" target="494" id="28z-W5-TbR"/>
+                                            </connections>
                                         </menuItem>
                                     </items>
                                 </menu>
@@ -158,7 +166,7 @@
             <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="741" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1200"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
             <value key="minSize" type="size" width="741" height="360"/>
             <view key="contentView" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="741" height="360"/>
@@ -334,6 +342,13 @@
         </window>
         <customObject id="494" customClass="AppDelegate">
             <connections>
+                <outlet property="Interval_1" destination="vml-70-w86" id="NAB-8X-Lf4"/>
+                <outlet property="Interval_10" destination="sev-YQ-x8Q" id="LqA-tY-Sy9"/>
+                <outlet property="Interval_15" destination="rrq-MS-eBB" id="gqn-is-8vf"/>
+                <outlet property="Interval_20" destination="IXk-m7-4lj" id="Y55-La-jGN"/>
+                <outlet property="Interval_30" destination="e2J-7D-moJ" id="NzU-mC-Gwn"/>
+                <outlet property="Interval_5" destination="mYA-ZB-sot" id="a0v-9C-BRI"/>
+                <outlet property="Interval_60" destination="iyz-fV-cSu" id="7Sc-9b-bcm"/>
                 <outlet property="WindowList" destination="2I7-XR-Tgj" id="5wc-J2-Oxi"/>
                 <outlet property="captureButton" destination="x7Y-qz-MAn" id="MTD-hS-5Pv"/>
                 <outlet property="previewView" destination="5cj-gH-PBE" id="T9o-hg-gN1"/>
@@ -343,6 +358,8 @@
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
+        <arrayController objectClassName="" id="q8Z-EC-JtB" userLabel="IntervalArrayController"/>
+        <userDefaultsController representsSharedInstance="YES" id="Wth-6r-AJw"/>
     </objects>
     <resources>
         <image name="NSRefreshTemplate" width="10" height="12"/>
