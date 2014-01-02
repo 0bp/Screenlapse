@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11E37FE18756D6B00D2A3CF /* IntervalMenuTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E37FD18756D6B00D2A3CF /* IntervalMenuTransformer.m */; };
 		A1AE8E4F186D8D4A00075A49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AE8E4E186D8D4A00075A49 /* Cocoa.framework */; };
 		A1AE8E59186D8D4A00075A49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1AE8E57186D8D4A00075A49 /* InfoPlist.strings */; };
 		A1AE8E5B186D8D4A00075A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AE8E5A186D8D4A00075A49 /* main.m */; };
@@ -19,8 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A11E37FC18756D6B00D2A3CF /* IntervalMenuTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntervalMenuTransformer.h; path = Classes/IntervalMenuTransformer.h; sourceTree = "<group>"; };
-		A11E37FD18756D6B00D2A3CF /* IntervalMenuTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntervalMenuTransformer.m; path = Classes/IntervalMenuTransformer.m; sourceTree = "<group>"; };
 		A1AE8E4B186D8D4A00075A49 /* Screenlapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screenlapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AE8E4E186D8D4A00075A49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A1AE8E51186D8D4A00075A49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -123,8 +120,6 @@
 				A1AE8E84186D924D00075A49 /* WindowListDataSource.m */,
 				A1F86EF11872E96E005C5580 /* ScreenlapseTableCellView.h */,
 				A1F86EF21872E96E005C5580 /* ScreenlapseTableCellView.m */,
-				A11E37FC18756D6B00D2A3CF /* IntervalMenuTransformer.h */,
-				A11E37FD18756D6B00D2A3CF /* IntervalMenuTransformer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -203,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11E37FE18756D6B00D2A3CF /* IntervalMenuTransformer.m in Sources */,
 				A1AE8E62186D8D4A00075A49 /* AppDelegate.m in Sources */,
 				A1F86EF31872E96E005C5580 /* ScreenlapseTableCellView.m in Sources */,
 				A1AE8E5B186D8D4A00075A49 /* main.m in Sources */,
