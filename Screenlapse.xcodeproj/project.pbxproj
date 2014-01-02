@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1AE8E4F186D8D4A00075A49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AE8E4E186D8D4A00075A49 /* Cocoa.framework */; };
+		A1AE8E59186D8D4A00075A49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1AE8E57186D8D4A00075A49 /* InfoPlist.strings */; };
+		A1AE8E5B186D8D4A00075A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AE8E5A186D8D4A00075A49 /* main.m */; };
+		A1AE8E62186D8D4A00075A49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AE8E61186D8D4A00075A49 /* AppDelegate.m */; };
+		A1AE8E65186D8D4A00075A49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1AE8E63186D8D4A00075A49 /* MainMenu.xib */; };
+		A1AE8E67186D8D4A00075A49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AE8E66186D8D4A00075A49 /* Images.xcassets */; };
+		A1AE8E85186D924D00075A49 /* WindowListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AE8E84186D924D00075A49 /* WindowListDataSource.m */; };
+		A1F86EF31872E96E005C5580 /* ScreenlapseTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F86EF21872E96E005C5580 /* ScreenlapseTableCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1AE8E4B186D8D4A00075A49 /* Screenlapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screenlapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AE8E4E186D8D4A00075A49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A1AE8E51186D8D4A00075A49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A1AE8E52186D8D4A00075A49 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1AE8E53186D8D4A00075A49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1AE8E56186D8D4A00075A49 /* Screenlapse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Screenlapse-Info.plist"; sourceTree = "<group>"; };
+		A1AE8E58186D8D4A00075A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1AE8E5A186D8D4A00075A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1AE8E5C186D8D4A00075A49 /* Screenlapse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screenlapse-Prefix.pch"; sourceTree = "<group>"; };
+		A1AE8E60186D8D4A00075A49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1AE8E61186D8D4A00075A49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1AE8E64186D8D4A00075A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A1AE8E66186D8D4A00075A49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1AE8E6D186D8D4A00075A49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1AE8E83186D924D00075A49 /* WindowListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WindowListDataSource.h; path = Classes/WindowListDataSource.h; sourceTree = "<group>"; };
+		A1AE8E84186D924D00075A49 /* WindowListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WindowListDataSource.m; path = Classes/WindowListDataSource.m; sourceTree = "<group>"; };
+		A1F86EF11872E96E005C5580 /* ScreenlapseTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenlapseTableCellView.h; path = Classes/ScreenlapseTableCellView.h; sourceTree = "<group>"; };
+		A1F86EF21872E96E005C5580 /* ScreenlapseTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenlapseTableCellView.m; path = Classes/ScreenlapseTableCellView.m; sourceTree = "<group>"; };
+		A1F86EF41872F6F2005C5580 /* Screenlapse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Screenlapse.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1AE8E48186D8D4A00075A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AE8E4F186D8D4A00075A49 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1AE8E42186D8D4A00075A49 = {
+			isa = PBXGroup;
+			children = (
+				A1AE8E54186D8D4A00075A49 /* Screenlapse */,
+				A1AE8E4D186D8D4A00075A49 /* Frameworks */,
+				A1AE8E4C186D8D4A00075A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1AE8E4C186D8D4A00075A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1AE8E4B186D8D4A00075A49 /* Screenlapse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1AE8E4D186D8D4A00075A49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1AE8E4E186D8D4A00075A49 /* Cocoa.framework */,
+				A1AE8E6D186D8D4A00075A49 /* XCTest.framework */,
+				A1AE8E50186D8D4A00075A49 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1AE8E50186D8D4A00075A49 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1AE8E51186D8D4A00075A49 /* AppKit.framework */,
+				A1AE8E52186D8D4A00075A49 /* CoreData.framework */,
+				A1AE8E53186D8D4A00075A49 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A1AE8E54186D8D4A00075A49 /* Screenlapse */ = {
+			isa = PBXGroup;
+			children = (
+				A1F86EF41872F6F2005C5580 /* Screenlapse.entitlements */,
+				A1AE8E82186D921600075A49 /* Classes */,
+				A1AE8E60186D8D4A00075A49 /* AppDelegate.h */,
+				A1AE8E61186D8D4A00075A49 /* AppDelegate.m */,
+				A1AE8E63186D8D4A00075A49 /* MainMenu.xib */,
+				A1AE8E66186D8D4A00075A49 /* Images.xcassets */,
+				A1AE8E55186D8D4A00075A49 /* Supporting Files */,
+			);
+			path = Screenlapse;
+			sourceTree = "<group>";
+		};
+		A1AE8E55186D8D4A00075A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1AE8E56186D8D4A00075A49 /* Screenlapse-Info.plist */,
+				A1AE8E57186D8D4A00075A49 /* InfoPlist.strings */,
+				A1AE8E5A186D8D4A00075A49 /* main.m */,
+				A1AE8E5C186D8D4A00075A49 /* Screenlapse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1AE8E82186D921600075A49 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1AE8E83186D924D00075A49 /* WindowListDataSource.h */,
+				A1AE8E84186D924D00075A49 /* WindowListDataSource.m */,
+				A1F86EF11872E96E005C5580 /* ScreenlapseTableCellView.h */,
+				A1F86EF21872E96E005C5580 /* ScreenlapseTableCellView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1AE8E4A186D8D4A00075A49 /* Screenlapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1AE8E7C186D8D4A00075A49 /* Build configuration list for PBXNativeTarget "Screenlapse" */;
+			buildPhases = (
+				A1AE8E47186D8D4A00075A49 /* Sources */,
+				A1AE8E48186D8D4A00075A49 /* Frameworks */,
+				A1AE8E49186D8D4A00075A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Screenlapse;
+			productName = Screenlapse;
+			productReference = A1AE8E4B186D8D4A00075A49 /* Screenlapse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1AE8E43186D8D4A00075A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Boris Penck";
+				TargetAttributes = {
+					A1AE8E4A186D8D4A00075A49 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A1AE8E46186D8D4A00075A49 /* Build configuration list for PBXProject "Screenlapse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1AE8E42186D8D4A00075A49;
+			productRefGroup = A1AE8E4C186D8D4A00075A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1AE8E4A186D8D4A00075A49 /* Screenlapse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1AE8E49186D8D4A00075A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AE8E59186D8D4A00075A49 /* InfoPlist.strings in Resources */,
+				A1AE8E67186D8D4A00075A49 /* Images.xcassets in Resources */,
+				A1AE8E65186D8D4A00075A49 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1AE8E47186D8D4A00075A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AE8E62186D8D4A00075A49 /* AppDelegate.m in Sources */,
+				A1F86EF31872E96E005C5580 /* ScreenlapseTableCellView.m in Sources */,
+				A1AE8E5B186D8D4A00075A49 /* main.m in Sources */,
+				A1AE8E85186D924D00075A49 /* WindowListDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1AE8E57186D8D4A00075A49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1AE8E58186D8D4A00075A49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1AE8E63186D8D4A00075A49 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1AE8E64186D8D4A00075A49 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1AE8E7A186D8D4A00075A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1AE8E7B186D8D4A00075A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1AE8E7D186D8D4A00075A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Screenlapse/Screenlapse.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screenlapse/Screenlapse-Prefix.pch";
+				INFOPLIST_FILE = "Screenlapse/Screenlapse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1AE8E7E186D8D4A00075A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Screenlapse/Screenlapse.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screenlapse/Screenlapse-Prefix.pch";
+				INFOPLIST_FILE = "Screenlapse/Screenlapse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1AE8E46186D8D4A00075A49 /* Build configuration list for PBXProject "Screenlapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AE8E7A186D8D4A00075A49 /* Debug */,
+				A1AE8E7B186D8D4A00075A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1AE8E7C186D8D4A00075A49 /* Build configuration list for PBXNativeTarget "Screenlapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AE8E7D186D8D4A00075A49 /* Debug */,
+				A1AE8E7E186D8D4A00075A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1AE8E43186D8D4A00075A49 /* Project object */;
+}
