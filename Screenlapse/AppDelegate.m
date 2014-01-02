@@ -23,6 +23,11 @@
   [self updateIntervalMenu];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
+  return YES;
+}
+
 # pragma mark -
 # pragma mark Events
 
