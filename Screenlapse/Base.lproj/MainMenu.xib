@@ -161,7 +161,7 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="Screenlapse" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
+        <window title="Screenlapse" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -358,8 +358,6 @@
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
-        <arrayController objectClassName="" id="q8Z-EC-JtB" userLabel="IntervalArrayController"/>
-        <userDefaultsController representsSharedInstance="YES" id="Wth-6r-AJw"/>
     </objects>
     <resources>
         <image name="NSRefreshTemplate" width="10" height="12"/>
