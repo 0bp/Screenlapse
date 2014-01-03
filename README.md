@@ -8,4 +8,6 @@ Takes screenshots of 1-n application windows every few seconds. If you select
 more than one window every single screenshot will contain all selected windows 
 side by side.
 
+Download in the Mac App Store:
+https://itunes.apple.com/us/app/screenlapse/id791099157
 
